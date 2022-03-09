@@ -80,13 +80,14 @@ const App = () => {
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### Theme Colors
-<div style="display:flex; flex-direction:columns">
-   <span>There is built-in style `draculaColor` which gives different cursor chat colors when it comes to running react-cursor-chat</span>
+### Dracula Theme Colors
+<div style="display:flex;">
 
-   <span>We suggest you import `themeColor` to your website for a better performance and it also solves 
+   There is built-in style  `draculaColor` which gives different cursor chat colors when it comes to running react-cursor-chat.
+
+   We suggest you import `draculaColor` to your website for a better performance and it also solves 
    some issues with website background color.It may not be user friendly if react-cursor-chat color matches with your website
-    background color and your users must get confused with.</span>
+    background color and your users must get confused with.
 
 
    Integrate these codes bellow to your website:
@@ -105,13 +106,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
  </div>
 </div>
 
-### Theme Colors
-<div style="display:flex; flex-direction:columns">
-  <span>Here are the cursor theme colors you may come across with once you run react cursor chat.</span>
- <div>
-   <img src="themeColor.png" width="100%" height="100%" style="object-fit:contain" alt="yomo react-cursor-chat theme colors " />
- </div>
-</div>
 
 ### add `/api/auth.js`
 
