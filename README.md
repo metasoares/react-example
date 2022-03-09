@@ -80,17 +80,24 @@ const App = () => {
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### Theme Style
+### Theme Colors
+<div style="display:flex; flex-direction:columns">
+   <span>There is built-in style `draculaColor` which gives different cursor chat colors when it comes to running react-cursor-chat</span>
+   <span>We suggest you import `themeColor` to your website for a better performance and it also solves some issues with website background color.It may not be user friendly if react-cursor-chat color matches with your website background color and your users must get confused with.</span>
 
-<div style="display:flex;">
-   <div>
-        <div>hairy-green</div>
-        <img src="https://github.com/yomorun/react-cursor-chat/raw/main/hairy-green.png" width="200px"  alt="yomo react-cursor-chat hairy-green" />
-    </div>
-    <div>
-        <div>apricot-yellow</div>
-        <img src="https://github.com/yomorun/react-cursor-chat/raw/main/apricot-yellow.png" width="200px"  alt="yomo react-cursor-chat apricot-yellow" />
-    </div>
+   Integrate these codes bellow to your website:
+    
+  ```javascript 
+  import CursorChat from '@yomo/react-cursor-chat';
+// Import theme styles
+// import '@yomo/react-cursor-chat/dist/apricot-yellow.css';
+// import '@yomo/react-cursor-chat/dist/hairy-green.css';
+   import '@yomo/react-cursor-chat/dist/draculaColor.css'
+   ```
+   Here are the react-cursor-chat theme color you could have :
+ <div>
+   <img src="themeColor.png" width="100%" height="100%" style="object-fit:contain" alt="yomo react-cursor-chat theme colors " />
+ </div>
 </div>
 
 ### Theme Colors
